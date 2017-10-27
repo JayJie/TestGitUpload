@@ -97,6 +97,8 @@ void InitRepository(REPOSITORY* rep)
     rep->write_pos = 0;
 }
 
+
+//Test git upload
 int _tmain(int argc, _TCHAR* argv[])
 {
     InitRepository(&g_repository);
